@@ -57,7 +57,7 @@ class DialogButton extends StatelessWidget {
       width: width,
       height: height,
       decoration: BoxDecoration(
-        color: color ?? Theme.of(context).accentColor,
+        color: color,
         gradient: gradient,
         borderRadius: radius,
         border: border,
